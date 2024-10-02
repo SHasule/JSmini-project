@@ -1,0 +1,50 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.heading{
+  margin-bottom: 10px;
+}
+.head2{
+  margin-top: 10px;
+}
+body{
+  background:rgb(122, 187, 213);
+  margin: 10px;
+  padding: 10px;
+}
+h1{
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+}
+
+ .button{
+    width: 100px;
+    height: 100px;
+    border:2px solid black;
+    display: flex;
+    margin-left: 3px;
+ }
+ #purple{
+    background-color: purple;
+ }
+ #grey{
+    float: left;
+    background-color: grey;
+ }
+  #white{
+    float: left;
+    background-color: white;
+  }
+  #blue{
+    float: left;
+    background-color: blue;
+  }
+  #yellow{
+    float: left;
+    background-color: yellow;
+  }

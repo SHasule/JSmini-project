@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM learning</title>
+</head>
+<body style="background-color:#212121;color: white;"></body>
+</body>
+</body>
+<script>
+  const div= document.createElement('div')
+         console.log(div);
+         div.className="one"
+         div.id=Math.floor(Math.random()*10+1) ;
+         div.style.backgroundColor="green";
+         div.style.color="#212121"
+         div.setAttribute('title','hello')
+        const addttext= div.innerHTML='dom practice'
+        // const addttext= document.createTextNode('chai aur study');
+        // div.appendChild(addttext)
+
+         document.body.appendChild(div)
+
+
+       
+</script>
+</html>
