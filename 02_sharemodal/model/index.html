@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Share model</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <div class="container">
+    <div class="cricle1"> </div>
+    <div class="cricle2"> </div>
+
+
+    <div class="wrapper">
+      <div class="card">
+
+        <div >
+          <img src="surajh.jpg" alt="">
+        </div>
+
+        <div class="name">
+          <h3>suraj hasule</h3>
+        </div>
+
+        <div class="specilization">
+          <p>coder, love javascript</p>
+        </div>
+
+        <div class="btn-grp">
+          <button onclick="openmodal()" class="share btn-card">
+            <i class="fa-solid fa-share"></i>
+            <p>Share my profile</p>
+
+          </button>
+
+          <button class="follow btn-card">
+            follow me
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- modal component -->
+
+    <div class="modal">
+      <div class="modal-header">
+        <h1>Share My Profile</h1>
+        <div>
+          <i onclick="closeModal()" class="fa-solid fa-xmark close"></i>
+        </div>
+      </div>
+
+      <div>
+
+        <h3>Share this via</h3>
+  
+        
+        <div class="icon-container">
+          <a href="#" class="icon" id="facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#" class="icon" id="twitter">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="#" class="icon" id="instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#" class="icon" id="whatsapp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="#" class="icon" id="telegram">
+            <i class="fa-brands fa-telegram"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- overlay -->
+    <div class="overlay" onclick="closeModal()"></div>
+  </div>
+  
+  <script src="https://kit.fontawesome.com/0e3e36a3a5.js" crossorigin="anonymous"></script>
+ <script src="script.js"></script>
+</body>
+</html>
