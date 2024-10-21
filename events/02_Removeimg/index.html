@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    img{
+      width:250px;
+      height: 150px;
+  
+      
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    body{
+      background-color: #313131;
+    }
+    #google{
+      color: white;
+    }
+  </style>
+</head>
+<body >
+  
+  <div class="wrapper">
+     
+    <ul class="images">
+      <li><img src="b.gif" id="first" alt=""></li>
+     <li><img src="GCebuFuAZhQWvwVsKcMzeQp4.png" alt=""></li>
+    <li> <img src="helena-lopes-UZe35tk5UoA-unsplash.jpg" alt=""></li>
+    <li> <img src="jses6png.png" alt=""></li>
+  <li>   <img src="js.png" alt=""></li>
+  <li><img src="t2.png" alt=""></li>
+  <a href="http://www.goole.com/" id="google">google</a>
+  </ul>
+ 
+  </div>
+</body>
+<script>
+
+//   let first=document.querySelectorAll("first").addEventListener('click',(e)=>{
+//  console.log(e.target.tagName);
+//   if(e.target.tagName==='IMG')
+//   {
+//         e.target.remove()
+//   }
+//   })
+
+// let wrapper=document.querySelector(".wrapper").addEventListener("click",(e)=>{
+//   console.log("clicked inside wrapper");
+//   // e.stopPropagation()
+// },)
+// let first=document.querySelector("#first").addEventListener("click",(e)=>{
+//   console.log("clicked first img ");
+//   e.stopPropagation()
+// },)
+ 
+//  let google=document.querySelector("#google").addEventListener('click',(e)=>{
+//   console.log("google clicked");
+//   e.preventDefault()
+  
+//  })
+
+let images=document.querySelector(".images")
+
+ images.addEventListener('click',(e)=>{
+
+ console.log(e.target.parentNode);
+ if(e.target.tagName="LI"){
+  let remover=e.target.parentNode;
+  remover.remove()
+ }
+ 
+ 
+ 
+ })
+</script>
+</html>

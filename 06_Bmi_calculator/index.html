@@ -1,27 +1,32 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="BMI.css">
+    <link rel="stylesheet" href="style.css">
    
 </head>
 <body >
     
     <div class="container">
         <h1 class="bmi">BMI Calculator</h1>
+
         <form >
             <p><label>Height in CM</label>
                 <br><input type="text" id="height"></p>
         <p><label>Weight in kg</label><br><input type="text" id="Weight"></p>
+        
         <button class="btn">Calculate</button>
+
         <div id="result"></div>
+
         <div class="weight-guide">
             <h2>BMI weight-guide</h2>
-            <p>under Weight =less than 20.3</p>
-            <p>noraml range= 26 to 36</p>
-            <p>over weight=more than 40</p>
+            <p class="under-weight"></p>
+            <p class="normal"></p>
+            <p class="over-weight"></p>
         </div>
 
         </form>
