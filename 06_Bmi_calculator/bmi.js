@@ -22,18 +22,19 @@ form.addEventListener("submit",function(e){
     console.log("under");
     let under=document.querySelector(".under-weight")
     under.innerHTML=`under Weight =less than 20.3`
-    under.style.cssText="background-color:orange;font-size:15px;border:2px"
+    under.style.cssText="background-color:orange; color:white; padding:10px; font-size:15px;border:2px"
+   
     }
     else if(bmi>=20.3 && bmi<=36){
       let normal=document.querySelector(".normal")
       normal.innerHTML=`noraml range= 20.3 to 36`
-      normal.style.cssText="background-color:green;font-size:15px;border:2px"
+      normal.style.cssText="background-color:green; color:white;padding:10px; font-size:20px;border:2px"
     }
     else if(bmi>=36){
  
     let over=document.querySelector(".over-weight")
    over.innerHTML=`over weight=more than 36`
-    over.style.cssText="background-color:red;font-size:15px;border:2px"
+    over.style.cssText="background-color:red; color:white; padding:10px; font-size:20px;border:2px"
     }
   }
   

@@ -1,51 +1,61 @@
 *{
-  background-color: rgb(125, 194, 171);
-  color:white;
+
+background-color: rgb(255, 255, 255);
   font-family: sans-serif;
+  overflow: hidden;
 }
-body{
+
+ body{
   display: flex;
    justify-content: center;
    align-items: center;
    width: 100vw;
    height: 100vh;
+   
 }
 .container{
-    border: 0.72px solid rgb(56, 55, 55);
-    padding:50px;
-    background-color: rgb(107, 200, 169);
+    border: 0.72px solid rgb(0, 0, 0);
+    padding: 2px 34px;
+ border-radius: 12px ;
+ background-color: rgb(255, 249, 249);
 }
 .bmi{
    display: flex;
    align-items: center;
    justify-content: center;
-   background-color: rgb(107, 200, 169);
+  
 }
 #height{
- margin-top: 10px;
- color: black;
- height:20px;
- background-color: rgb(107, 200, 169);
- border:0.80px solid rgb(44, 43, 43);
+  font-size: 1rem;
+  font-weight: bold;
+  padding:0.6rem;
+  margin-top: 10px;
+  height: 20px;
+  outline: none;
+  border: 1px solid rgb(41, 40, 40);
+ 
 }
 #Weight{
+  font-size: 1rem;
+  font-weight: bold;
+  padding:0.6rem;
   margin-top: 10px;
-  color: black;
-  background-color: rgb(107, 200, 169);
-  height:20px;
- border:0.80px solid rgb(44, 43, 43);
+  height: 20px;
+  outline: none;
+  border: 1px solid rgb(41, 40, 40);
 }
 .btn{
   margin-bottom: 10px;
-  background-color:rgb(106, 218, 106);
   padding: 7px 15px;
-  background-color: rgb(107, 200, 169);
-  border:1px solid rgb(64, 224, 64);
+  font-size: 1.2rem;
+  background-color: rgb(255, 39, 39);
+  border:1px solid rgb(253, 5, 5);
+  color: white;
 }
 .btn:hover{
   cursor: pointer;
-  background-color: rgb(33, 144, 33);
+ 
 }
 form{
-  background-color: rgb(107, 200, 169);
-}
+  
+} 

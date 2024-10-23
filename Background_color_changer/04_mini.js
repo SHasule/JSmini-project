@@ -24,7 +24,7 @@ const startchangingcolor=function(){
   }  
   if(!intervalid){
 
-    intervalid=  setInterval(changebgcolor,1000)  
+    intervalid=  setInterval(changebgcolor,300)  
   }
 //  intervalid=  setInterval(changebgcolor,1000)  
 
