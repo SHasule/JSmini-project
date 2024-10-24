@@ -96,7 +96,7 @@ align-items: center;
   border: none;
   margin: 30px auto;
   display: block;
-  /* display: none; */
+  display: none;
 }
 @media screen and (max-width:768px) {
   .search-results{
