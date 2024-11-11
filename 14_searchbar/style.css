@@ -1,0 +1,49 @@
+body{
+  font-family: 'Roboto',sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(241, 235, 235);
+}
+.search{
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: -22px;
+  padding: 22px;
+}
+h1{
+  background-color: black;
+  color: white;
+  font-size: 33px;
+  margin-top: 8px;
+}
+.search input{
+  width: 600px;
+  height: 30px;
+  padding: 11px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  font-size: 19px;
+}
+.Head{
+  display: flex;
+  justify-content: center;
+}
+.Head h3{
+  margin-inline:80px;
+  font-size: 20px;
+}
+table{
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  width: 700px;
+  margin: auto;
+  padding: 3px;
+}
+table tr td{
+  width: 215px;
+  font-size: 20px;
+  padding: 7px;
+}

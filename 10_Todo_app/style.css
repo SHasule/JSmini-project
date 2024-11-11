@@ -1,0 +1,69 @@
+body{
+  background-color: #313131;
+  font-family: sans-serif;
+}
+.container{
+  width: 360px;
+  padding: 33px;
+  text-align: center;
+  background-color: white;
+  margin-left: 33px;
+ 
+  margin: auto;
+  margin-top: 3rem;
+  
+}
+input{
+  width: 270px;
+  padding: 8px;
+  border: 2px solid rgb(74, 220, 220);
+  outline: none;
+  font-size: 1.1rem;
+  
+}
+#add{
+  width: 60px;
+  height:41px;
+  background-color: rgb(35, 35, 35);
+  color: white;
+  font-size: 1.2rem;
+border: none;
+cursor: pointer;
+border-radius: 3px;
+outline: none;
+}
+.tasklist{
+  text-align: left;
+  position: relative;
+  color: black;
+  border: 1px solid black;
+ 
+  /* background-color: rgb(1, 81, 81); */
+  /* color: white; */
+  font-size:1.2rem;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  padding:0.3rem;
+  border-radius: 3px ;
+}
+/* text ul button{
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+} */
+ .btn{
+  position: absolute;
+  right:0;
+  top: 0;
+  bottom: 0;
+  
+  cursor: pointer;
+  padding: 3px 8px;
+  font-weight: bold;
+  background-color: rgb(221, 13, 13);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+ }

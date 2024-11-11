@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(228, 151, 8);
+  padding: 44px;
+
+}
+#Addnote{
+  width: 170px;
+  height: 140px;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+ 
+
+}
+
+.addForm{
+  display: none;
+
+  width: 220px;
+  background-color: white;
+  padding: 21px;
+  border-radius: 3px;
+
+ position: fixed;
+ left: 50%;
+ right: 50%;
+ transform: translate(-50%,40%);
+ top: -9%;
+}
+.addForm input{
+  width:90%;
+  height: 11px;
+  padding: 11px;
+  border: 1px solid black;
+  font-size: 14px;
+  border-radius: 3px;
+
+}
+.inputs{
+  margin-top: 22px;
+}
+textarea{
+  width: 93%;
+  padding: 5px;
+  font-size: 18px;
+  border: none;
+  border: 1px solid rgb(52, 50, 50);
+}
+.inputs p{
+  font-size: 17px;
+}
+.Addbtn{
+  width: 100%;
+  color: white;
+  background-color: rgb(255, 115, 0);
+ font-size: 18px;
+ margin-top: 20px;
+ border: none;
+ border-radius: 3px;
+ padding: 8px 10px;
+ cursor: pointer;
+}
+.Addbtn:hover{
+  background-color: orange;
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+}
+.head button{
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  cursor: pointer;
+}
+.mynotes{
+  width: 170px;
+  height: 130px;
+  background-color: white;
+  border-radius: 4px;
+ padding: 11px;
+
+  border: none;
+}
+.mynotes p{
+  margin-top: 11px;
+
+}
+.mynotes button{
+  margin-top: 11px;
+  width: 70px;
+  height: 27px;
+  background-color: orange;
+  color:white;
+  border: none;
+  font-size: 18px;
+  position: fixed;
+  top: 140px;
+cursor: pointer;
+}
+.notes{
+  display: flex;
+  gap: 30px;
+
+}
+.newnote{
+  display: flex;
+  gap:30px;
+}
