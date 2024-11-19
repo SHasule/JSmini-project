@@ -26,6 +26,8 @@ function initGame(){
     gameGrid=["","","","","","","","",""]
 boxes.forEach((box,index)=>{
     box.innerText=""
+    boxes[index].style.pointerEvents="all"
+    box.classList=`box box${index+1}`
 })
 }
 initGame();
@@ -84,6 +86,17 @@ function checkGameover(){
     gameInfo.innerText=`Winner Player - ${answer}`;
     newGameBtn.classList.add("active")
     return;
+}
+
+let fillCount=0;
+gameGrid.forEach((box)=>{
+  if (box !=="") {
+    fillCount++;
+  }
+})
+if (fillCount==9) {
+   gameInfo.innerText=`Game Tied!`
+   newGameBtn.classList.add("active")
 }
 
 // newGameBtn.classList.add("active")
