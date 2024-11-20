@@ -1,0 +1,9 @@
+body{
+  background-color: rgb(33, 33, 58);
+  color: white;
+}
+#cross{
+  color: red;
+  height: 20px;
+  width: 20px;
+}
